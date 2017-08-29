@@ -1,0 +1,235 @@
+
+
+html{
+  font-family: 'roboto', sans-serif;
+  font-weight: normal;
+
+}
+
+.myHeaderFont{
+  font-family: 'robotoslab', serif;
+  font-weight: bold;
+}
+
+.header-search-wrapper {
+    max-width: 424px;
+    width: 100%;
+    margin: 0 auto;
+    width: calc(100% - 45%);
+    height: 32px;
+    display: inline-block;
+    margin-right: 240px;
+    position: relative;
+}
+/*
+  An MSIE fix to fix placeholder vertical alignment, other browsers seem to
+  treat it normally so it works for all browsers.
+
+  Stackover thread its from is:
+  https://stackoverflow.com/questions/20611252/input-placeholder-line-height-issue
+*/
+.header-search-wrapper input.header-search-input[type="search"]{
+  text-align: left;
+  line-height: normal;
+}
+/*
+  Instead of using the CSS .prefix class I have a modified one that positions the
+  icon to the right edge of input search text field and positions it so that
+  it lines up with the text placeholder.
+
+  Trick is borrowed from the many materialize dashbaords floating out in the
+  inter-webs. Same trick can be re-used for your input fields of forms.
+
+  have to leave enough room for the close icon
+*/
+.header-search-wrapper i.myprefix{
+  position: absolute;
+  top: -16px;
+  right: 54px;
+  font-size: 24px;
+  color: #880e4f;
+}
+.mylabel{
+  position: absolute;
+  top: -26px;
+  color: #880e4f;
+}
+
+nav{
+  height:56px;
+  background-color: #4a148c;
+}
+nav.nav-extended .nav-wrapper{
+  min-height: 56px;
+}
+.menunav .nav-wrapper li a{
+  color: #f3e5f5;
+}
+.menunav .nav-wrapper li a:visited{
+  color: #f3e5f5;
+}
+.menunav .nav-wrapper li a:hover{
+  color: #f3e5f5;
+}
+.supportbar .nav-wrapper li a{
+  color: #f3e5f5;
+}
+.supportbar .nav-wrapper li a:visited{
+  color: #f3e5f5;
+}
+.supportbar .nav-wrapper li a:hover{
+  color: #f3e5f5;
+}
+.supportbar .nav-wrapper h5{
+  color: #f3e5f5;
+}
+
+.page-footer{
+  background-color: #4a148c;
+  color: #f3e5f5;
+}
+.page-footer ul li  a{
+  color: #f3e5f5;
+}
+.page-footer ul li a:visited{
+  color: #f3e5f5;
+}
+.page-footer ul li a:hover{
+  color: #f3e5f5;
+}
+.page-footer p a{
+  color: #f3e5f5;
+}
+.page-footer p a:visited{
+  color: #f3e5f5;
+}
+.page-footer p a:hover{
+  color: #f3e5f5;
+}
+.page-footer h5 {
+  color: #ea80fc;
+}
+
+.page-footer .footer-copyright{
+  background-color: #6a1b9a ;
+  color: #f3e5f5;
+}
+
+.page-footer .footer-copyright .myfoot a  {
+  color: #f3e5f5;
+}
+.page-footer .footer-copyright .myfoot a:visited  {
+  color: #f3e5f5;
+}
+.page-footer .footer-copyright .myfoot a:hover  {
+  color: #f3e5f5;
+}
+.myfoot a.right{
+  color: #f3e5f5;
+}
+
+
+
+.ecom li a{
+  color: #f3e5f5;
+}
+.ecom li a:visited{
+  color: #f3e5f5;
+}
+.ecom li a:hover{
+  color: #f3e5f5;
+}
+
+.pagination li.active {
+  background-color: #d500f9;
+}
+.btn a{
+  color: #ffffff;
+}
+.btn a:visited{
+  color: #ffffff;
+}
+a.btn{
+  color: #ffffff;
+}
+a:visited.btn{
+  color: #ffffff;
+}
+
+.breadcrumbs{
+  background-color: #ad1457;
+}
+
+.myPageTitle{
+  font-family: 'robotoslab', serif;
+  font-weight: bold;
+}
+.myPageTitle .word1 .char1{
+
+    color: #1a237e;
+
+}
+
+.myPageTitle .word2 .char1{
+
+
+  color: #1a237e;
+}
+
+
+a.btn{
+  background-color: #d500f9;
+  color: #ffffff;
+}
+a:hover.btn{
+  background-color: #d500f9;
+  color: #ffffff;
+}
+a:visited.btn{
+  background-color: #d500f9;
+  color: #ffffff;
+}
+
+.btn{
+  background-color: #d500f9;
+  color: #ffffff;
+}
+
+.card{
+  background-color: #f3e5f5;
+}
+.card-panel{
+  background-color: #f3e5f5;
+}
+
+blockquote {
+  border-left: 5px solid #880e4f;
+
+}
+
+.myHeading{
+  font-family: 'robotoslab', serif;
+  font-weight: bold;
+}
+
+.myHeading .word1 .char1{
+  float:left;
+  display: block;
+  font-size: 1.5em;
+  margin-top: 10px;
+
+}
+
+
+a{
+  color: #d500f9;
+}
+
+a:visited{
+
+    color: #e040fb;
+
+}
+a:hover{
+    color: #aa00ff;
+}

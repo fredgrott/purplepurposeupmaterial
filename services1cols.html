@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<!-- =======================================
+     Item Name: PurplePurpose
+     Author Name: Fred Grott
+     Author URI: http://www.uplabs.com/fred.grott
+     ============================================
+
+    You will find that I put notes specific to this Pack in all the layout files.
+    Just read the comments as I added them with that purpose in mind.
+
+   -->
+<html lang="en"><!-- HTML Begin -->
+  <head><!-- Head Begin -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0 shrink-to-fit=no">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <meta name="description" content="PurplePurpose is fully loaded with all the features of a multipurpose site including portoflios, products, services, etc.">
+
+    <title>Services</title>
+
+    <!-- Favicons for Android, iOS, MS-mobile, Desktop -->
+    <link rel="icon" sizes="192x192" href="assets/images/favicons/fg-favicon-192x192.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/fg-favicon-144x144.png">
+    <link rel="shortcut icon" href="assets/images/favicons/fg-favicon-72x72.png">
+    <link rel="apple-touch-icon"  href="assets/images/favicons/fg-favicon-72x72.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/fg-favicon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/fg-favicon-144x144.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/fg-favicon-180x180.png">
+
+    <!-- CSS, CSS framework first than fonts than custom -->
+    <link href="assets/css/fonts.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="assets/css/material-icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/wavesextensions.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+
+    <!-- to prevent fout when using lettering.js -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+    <script src="assets/js/jquery.lettering.js"></script>
+    <!-- Specific jquery plugins to a page go here-->
+
+    <script src="assets/js/init.js"></script>
+
+
+
+    <!-- Facebook, Twitter, and few other popular social platforms
+         require Schema.org, Open Graph, or other markup so that
+         when sharing the url the correct images and site url
+         get posted right during the share -->
+
+    <!-- Schema.org markup goes here -->
+
+    <!-- Open Graph markup goes here -->
+
+    <!-- Twitter Card markup goes here -->
+
+
+
+  </head><!-- Head End -->
+  <body><!-- body begin -->
+    <header><!-- header begin -->
+      <!-- DropDowns go here before the nav tags -->
+      <ul id="about" class="dropdown-content"><!-- About DropDown Begin -->
+        <li><a href="aboutus.html">AboutUs</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="services1cols.html">Service</a></li>
+        <li><a href="portfolio2colsopt1.html">Portfolios</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
+        <li><a href="contactus.html">ContactUs</a></li>
+      </ul><!-- About DropDown End -->
+
+      <!-- NAV NOTES: Materialize CSS Framework deefines the navbar and its
+           variations as row elements, ie most of the time for a complex
+           heeader navigation one will use multiple nav star-end tag pairs
+           such as I have shown here.
+
+           Href Link Coloring has been modified to present a consistent look and
+           feel of a complex nvaigation composed of a regualr navbar, dropdowns,
+           and icons.
+
+           BREADCRUMB NOTES: breadcrubs is included in the pagetemplates and
+           pages as a main content item wrapper in nav tags as that way it
+           still displays within the mobile environment.
+
+
+
+         -->
+      <nav class="topnav"><!-- TopNav Begin -->
+        <div class="nav-wrapper"><!-- Nav-Wrapper Begin-->
+             <!-- Hamburger Menu Activation Block for mobile -->
+             <a href="#" data-activates="mobile-demo" class="button-collapse center"><i class="material-icons">menu</i></a>
+             <!-- We CSS stylize styles to get the same look and feel across
+                  MSIE, MS EDGE, SAFARI, CHROME, and FIREFOX by using some
+                  browser prefixes. It's not pretty but it does work.
+
+                  Instead of using a label here, we adjust the position of an i-con
+                  tag with its UI element to rest inside the input box. Which is a much
+                  cleaner look than an icon prefix to the input field.
+                -->
+             <div class="header-search-wrapper  hide-on-med-and-down"><!-- Search form begin -->
+              <form>
+               <div class="input-field">
+                  <i class="fa fa-search myprefix"></i>
+
+                  <input id="search" type="search" class="header-search-input z-depth-2 deep-purple lighten-1" required placeholder="Explore">
+
+               </div>
+              </form>
+            </div><!-- Search from end -->
+            <ul id="mymine" class="right ecom">
+             <!-- A material-icons quirk is that one has trouble putting text right next to the icon,
+                  hence using font awesome for the shopping cart badge-->
+
+              <li><a  href="help.html"><i class="fa fa-question-circle"></i></a></li>
+              <li><a  href="account.html"><i class="material-icons">account_box</i></a></li>
+             <li><a  href="shoppingcart.html"><i class="fa fa-shopping-cart"></i>4</a></li>
+             <li><a  href="track.html"><i class="material-icons">schedule</i></a></li>
+             <!-- Through your app stuff icon gets changed per login status:
+                      fa fa-unlock for logged-in
+                      fa fa-lock for not logged in
+                   -->
+             <li><a  href="login.html"><i class="fa fa-unlock"></i></a></li>
+           </ul>
+           <!-- Mobile Hamburger Menu that slides out-->
+          <ul class="side-nav indigo lighten-5" id="mobile-demo">
+           <li class="no-padding">
+             <ul class="collapsible collapsible-accordion">
+               <li>
+                 <a class="collapsible-header">About<i class="material-icons">arrow_drop_down</i></a>
+                 <div class="collapsible-body">
+                     <ul>
+                       <li><a href="aboutus.html">AboutUs</a></li>
+                       <li><a href="team.html">Team</a></li>
+                       <li><a href="services1cols.html">Service</a></li>
+                       <li><a href="portfolio2colsopt1.html">Portfolios</a></li>
+                       <li><a href="events.html">Events</a></li>
+                       <li><a href="newsletter.html">Newsletter</a></li>
+                       <li><a href="contactus.html">ContactUs</a></li>
+                     </ul>
+                  </div>
+                </li>
+              </ul>
+             </li>
+             <li><a href="products.html">Products</a></li>
+             <li><a href="services.html">Services</a></li>
+             <li><a href="features.html">Features</a></li>
+             <li><a href="pages.html">Pages</a></li>
+             <li><a href="credits.html">Credits</a></li>
+             <li><a href="docs.html">Docs</a></li>
+
+         </ul>
+
+        </div><!-- Nav-Wrapper End -->
+     </nav><!-- TopNav End -->
+     <nav class="menunav"><!-- MenuNav being -->
+       <div class="nav-wrapper"><!-- nav-wrapper begin -->
+          <ul class="left hide-on-med-and-down leftmenu">
+
+            <li><a class="dropdown-button" href="#!" data-activates="about">About<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pages.html">Pages</a></li>
+            <li><a href="credits.html">Credits</a></li>
+            <li><a href="docs.html">Docs</a></li>
+          </ul>
+          <!-- The Logo -->
+          <a href="index.html" class="brand-logo right"><img src="assets/images/materialized-logo.png"></a>
+        </div><!-- nav-wrapper end -->
+
+     </nav><!-- MenuNav End -->
+     <nav class="supportbar"><!-- supportbar begin -->
+       <div class="nav-wrapper"><!-- nav-wrapper begin -->
+
+         <ul class="right support">
+           <li><a  href="sitemap.html"><i class="fa fa-sitemap"></i></a></li>
+           <li><a  href="#!"><i class="fa fa-slack"></i></a></li>
+          <li><a  href="#!"><i class="material-icons">chat</i></a></li>
+          <li><a  href="#!"><i class="material-icons">email</i></a></li>
+         </ul>
+
+         <div class="left">
+           <h5 class="">cust: 1-800-234-5555</h5>
+         </div>
+       </div><!-- nav-wrapper end -->
+     </nav><!-- supportbar end -->
+
+    </header><!-- header end -->
+    <main><!-- main begin -->
+      <div class="container section"><!-- breadcrumbs and page title section begin -->
+
+        <div class="row">
+          <div class="col s12">
+            <h2 class="myHeaderFont">Services</h2>
+          </div>
+        </div>
+      </div><!-- breadcrumbs and page title section end -->
+      <div class="container section">
+        <div class="row">
+          <div class="col s12">
+            <div class="card-panel">
+              <div class="card-content">
+                <div class="center"><i class="fa fa-diamond fa-3x"></i></div>
+                <h3>Aliquam in adipiscing</h3>
+		        		<p>Praesent rhoncus mauris ac sollicitudin vehicula. Nam fringilla turpis turpis, at posuere turpis aliquet sit amet condimentum</p>
+		        		<a href="#" class="btn">Read more</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <div class="card-panel">
+              <div class="card-content">
+                <div class="center"><i class="fa fa-pencil fa-3x"></i></div>
+                <h3>Curabitur mollis</h3>
+		        			<p>Suspendisse eget libero mi. Fusce ligula orci, vulputate nec elit ultrices, ornare faucibus orci. Aenean lectus sapien, vehicula</p>
+		        			<a href="#" class="btn">Read more</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <div class="card-panel">
+              <div class="card-content">
+                <div class="center"><i class="fa fa-diamond fa-3x"></i></div>
+                <h3>Aliquam in adipiscing</h3>
+		        			<p>Praesent rhoncus mauris ac sollicitudin vehicula. Nam fringilla turpis turpis, at posuere turpis aliquet sit amet condimentum</p>
+		        			<a href="#" class="btn">Read more</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <div class="card-panel">
+              <div class="card-content">
+                <div class="center"><i class="fa fa-pencil fa-3x"></i></div>
+                <h3>Curabitur mollis</h3>
+		        			<p>Suspendisse eget libero mi. Fusce ligula orci, vulputate nec elit ultrices, ornare faucibus orci. Aenean lectus sapien, vehicula</p>
+		        			<a href="#" class="btn">Read more</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main><!-- main end -->
+    <!-- FOOTER NOTES: A Href Link Coloring in the CopyrightFooter has been
+                       CSS modified as we want the same look and behavior as
+                       the header navigation
+        -->
+    <footer class="page-footer"><!-- Footer Begin -->
+      <!-- Most Websites can effectively make use of the desktop 3 column and mobile
+           1 column footer
+         -->
+      <div class="container">
+        <div class="row">
+          <div class="col l4 s12">
+            <h5 class="myHeaderFont">Our Latest Work</h5>
+            <a href="portfolioitem.html"><img class="responsive-img" src="assets/images/portfolios/portfolio6.jpg"/></a>
+            <ul>
+              <li><a href="blogposts.html">Blog</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="newsletter.html">ComingSoon</a></li>
+            </ul>
+          </div>
+          <div class="col l4 s12">
+            <h5 class="myHeaderFont">Company Nav</h5>
+            <ul>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="vacancies.html">Vacancies</a></li>
+              <li><a href="termsofservice.html">Privacy Terms</a></li>
+            </ul>
+          </div>
+          <div class="col l4 s12">
+            <h5 class="myHeaderFont">Contacts</h5>
+             <p>
+               CompanyName<br/>
+               125 Your Street<br/>
+               Westville, IN 46391<br/>
+               USA<br/>
+               <i class="fa fa-phone"></i>1-219-456-0988<br/>
+               <i class="fa fa-fax"></i>1-219-456-0987<br/>
+               <i class="fa fa-envelope-o"></i> <a href="mailto:email@company.com">email@company.com</a>
+
+             </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="footer-copyright myfoot">
+        <div class="container ">
+          &copy;2017 Fred Grott, UpLabs Paid License
+          <a class="right" href="!#" target="_blank"><i class="fa fa-2x fa-facebook-official "></i></a>
+          <a class="right" href="!#" target="_blank"><i class="fa fa-2x  fa-google-plus-square "></i></a>
+          <a class="right" href="!#" target="_blank"><i class="fa  fa-2x fa-twitter-square "></i></a>
+        </div>
+      </div>
+    </footer><!-- Footer End -->
+  </body><!-- body end -->
+</html>
